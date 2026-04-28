@@ -28,7 +28,7 @@ export default function WhoWeAre() {
       <div className="absolute inset-0 bg-gradient-to-r from-black/50 via-transparent to-black/30 pointer-events-none" />
 
       <div className="relative max-w-7xl mx-auto px-6 md:px-10 pt-20 pb-24">
-        <div className="grid grid-cols-12 gap-10">
+        <div className="grid grid-cols-12 gap-y-8 gap-x-0 md:gap-10">
 
           {/* Left column — label + description */}
           <div className="col-span-12 md:col-span-3">
@@ -41,8 +41,8 @@ export default function WhoWeAre() {
           </div>
 
           {/* Right column — rotating headline + body */}
-          <div className="col-span-12 md:col-span-9 md:pl-8">
-            <div className="reveal hero-title text-white text-[7vw] md:text-[5.2vw] relative" style={{ minHeight: '2.6em' }}>
+          <div className="col-span-12 md:col-span-9">
+            <div className="reveal hero-title text-white text-[7vw] md:text-[4.2vw] relative" style={{ minHeight: '2.8em' }}>
               {LINES.map((line, i) => (
                 <span
                   key={line}
@@ -58,7 +58,7 @@ export default function WhoWeAre() {
               ))}
             </div>
 
-            <div className="reveal mt-14 grid grid-cols-12 gap-8">
+            <div className="reveal mt-14 grid grid-cols-12 gap-y-6 gap-x-0 md:gap-8">
               <div className="col-span-12 md:col-span-7 md:col-start-3">
                 <p className="text-white/85 text-lg md:text-xl leading-relaxed font-light max-w-xl">
                   Havora is a new kind of venture network — where trust is built off the course, and ideas travel faster through people.

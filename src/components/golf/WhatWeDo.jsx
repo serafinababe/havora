@@ -49,10 +49,10 @@ const ITEMS = [
 
 export default function WhatWeDo() {
   return (
-    <section id="what" className="relative w-full bg-black border-t border-white/5">
+    <section id="what" className="relative w-full overflow-hidden bg-black border-t border-white/5">
       <div className="max-w-7xl mx-auto px-6 md:px-10 py-32">
 
-        <div className="grid grid-cols-12 gap-10 mb-20">
+        <div className="grid grid-cols-12 gap-y-6 gap-x-0 md:gap-10 mb-12 md:mb-20">
           <div className="col-span-12 md:col-span-3">
             <div className="reveal mono text-[10px] tracking-[0.3em] uppercase text-white/45">
               02 — what we do

@@ -21,7 +21,7 @@ export default function Join() {
   };
 
   return (
-    <section id="join" className="relative w-full bg-black border-t border-white/5 overflow-hidden">
+    <section id="join" className="relative w-full overflow-hidden bg-black border-t border-white/5">
       {/* Atmospheric backdrop */}
       <div className="absolute inset-0 pointer-events-none">
         <div className="atmos-base" />
